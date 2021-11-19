@@ -3,3 +3,49 @@ html,body{
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px #474747;
+    max-height: 100vh;
+}
+p{
+    display: inline;
+    text-transform: capitalize;
+    font-weight: bold
+}
+.dashboard-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 100vh;
+
+
+}
+.section-one,.section-three{
+    display: flex;
+    justify-content: space-between;
+    margin: .4em;
+    flex-grow: 1;
+
+}
+.section-two{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4em;
+    margin: 0 .4em;
+    padding: 5em;
+    margin-top: 6em;
+}
+
+.section-three{
+    margin-top: 15em;
+}
